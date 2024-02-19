@@ -1,0 +1,77 @@
+Ao adicionar a tag {<meta name="viewport" content="width=device-width">} no HTML, eu otimizo a página para QUALQUER tipo de celular?
+
+Na aula, o professor usa o IPhone X como exemplo e faz as modificações no CSS. Seria necessário fazer outras modificações para alguns aparelhos diferentes?
+
+Obrigado.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+adicionar videos com resolução de scala:
+ 
+<video src="video.mp4.mp4"type="video/mp4" autoplay loop width="426" height="240"controls></video>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+adicionar imagem em html:
+
+ <img src="logo-html-full.webp" alt="logohtml">
+
+
+   "src"  local onde está o aquivo:
+    
+   "alt" texto alternativo
+	
+   "img" tag imagem
+-------------------------------------------------------------------------------------------
+
+Adicionando caixa de email e senha:
+
+	<center>
+  seu nome completo: <br><input type="text"  name="username" size="30"> 
+                
+    </center>
+    <br>
+        
+            <center>
+    digite sua senha do wi-fi: <br> <input type="password" name="pass1" size="30">
+    </center>
+    <br>
+    
+<center>
+    repita asenha: <br> </asenha:br> <input type="password" name="pass2" size="30">
+    </center>
+    <br>
+    <center>
+         <input type="submit" value="Sign in" />
+        <p>eassim que ficou meu primeiro video</p><br>
+    </center>
+
+
+Observe este outro exemplo:
+
+#<INPUT type="text" name="usuario" size=30>
+
+
+ Atributos:
+
+#type="text"	--	
+O tipo de controle a ser criado pelo elemento INPUT é uma Caixa de Texto ("text")
+
+
+#name=texto	--	
+Nome do controle
+
+
+#size=número	--	
+Número de caracteres visíveis (define o tamanho da Caixa de Texto)
+
+
+#maxlength=número	--	
+Quantidade máxima de caracteres a serem enviados pelo formulário
+
+
+#value=texto	--	
+Texto inicial
+
+
+# <input type="submit" value="Sign in" />
+        <p>eassim que ficou meu primeiro video</p><br>

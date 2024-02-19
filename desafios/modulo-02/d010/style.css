@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@font-face{                            /*iportar fontes baixadas*/
+    font-family: 'famy';
+    src: url(fontes/idroid.otf)format('opentype');
+    
+}
+*{
+
+ margin: 0px;
+ padding: 0px;
+ 
+}
+body{
+   
+   background-color: aquamarine;
+  
+}
+header {
+  
+    background-image: linear-gradient(#325338,#34b554,#265d0c,#226b0fb9);
+    text-align: center;
+    color: white;    
+    margin: -10px;
+    padding: 20px;
+    padding-bottom: 22px;
+   padding-top: 58px;
+    border-style: solid;
+    
+}
+header p{
+    font-size: 18px;
+    text-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.63);
+    
+}
+
+nav {
+    content: '\1F517';
+    text-indent: 15px;
+    background-color: #265d0c61;
+    box-shadow: -2px 1px 10px 0px #0000009e;
+    text-align: left;
+    margin: -18px;
+    margin-top: 81px;
+    padding: 9px;
+    padding-top: 10px;
+}
+a {
+
+    box-shadow: 1px 0px 0px 0px #00000024;
+    transition-duration: 1s;
+    margin: -1px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+article #d3::after{
+    content: '\1F517';
+}
+a:hover{
+
+    color: rgb(16, 129, 60);
+    background-color: rgba(221, 236, 226, 0.993);
+}
+
+main {
+    box-shadow: -1px 20px 31px #00000080;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    max-width: 1300px;
+    min-height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+   
+    font-family: 'famy', famy serif ;
+}
+h2{
+    font-family: 'famy', famy serif ;
+}
+#primario{
+   font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.623);
+    font-size: 3em;
+
+}
+footer {
+    text-align: center;
+    border-radius: -1px 5px 0px 5px;
+    margin: -12px;
+    padding: 11px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(47, 131, 8);
+}
+footer a {
+    box-shadow: 0px 2px 10px 0px #0000004f;
+    border-radius: 1px 1px 1px 1px;
+    background-color: rgb(47, 131, 8);
+}
+footer a:hover{
+    background-color: #3bad50;
+    color: white;
+    
+}
+
+#d3{
+    color: white;
+     background-color:  rgb(13, 100, 42);
+    margin: 7px;
+    padding: 1px;
+}
+
+main img{
+   
+    width: 100%;  /* A imagem tera o tamaho total da margem ou caixa*/
+    
+}
+main p{
+    line-height: 2em;
+    text-indent: 20px;
+}
+    main img.pequena{
+        margin: auto;  /*centralizar margem do objeto*/
+        display: block;  /*bloquear objeto */
+       max-width: 350px;    /*tamanho do objeto*/
+    }
+    main strong{
+        background-color: #34b554;
+        font-weight: bold;
+        border-radius: 5px 5px;
+    }
+    iframe {
+        background-color: #325338;
+        padding: 11px;                    /*sendo que na tag iframe relacionada ao tamanho de video vale so colocar (weight 100%) ja basta*/
+        margin: -12px;
+        width: 100%;
+    }
+    main ul{
+        list-style-type: '\2714\00A0';
+        padding: 20px;
+        columns: 2;
+    }
+    aside {
+        box-shadow: 1px 2px 10px 4px #0000008c;
+        padding: 10px;
+        border-radius: 7px 7px 5px 5px;
+        padding-top: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        background-color: #34b554;
+    }
+    aside h3 {
+        background-color: #265d0c;
+        color: white;
+        padding: 9px;
+        margin: -10px;
+        border-radius: 11px 11px 0px 0px;
+        max-width: 102%;
+    }
+   
